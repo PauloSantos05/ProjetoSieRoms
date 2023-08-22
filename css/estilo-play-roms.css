@@ -1,0 +1,229 @@
+/*===================== imagem de fundo =======================*/
+
+html,body,.capa {
+	height: 100%;
+}
+
+body {
+	background: url('../imagens/fundo_roms/psone_fundo.png'),url('../imagens/fundo_roms/ruido2.jpg');
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	
+	background-position: center;
+	background-size: 60px;
+}
+
+.img-logo {
+	height: 50px;
+	width: 260px;
+	display: block;
+	background: url('../imagens/logo/play-logo.png')no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+}
+
+nav.nav-transparente {
+	padding: 15px 0px;
+	background: rgba(3, 5, 88, 0.7);
+	border: none;
+}
+
+.navbar-brand {
+	padding: 1px 15px;
+}
+
+/*-- imagem de capa --*/
+
+.capa {
+	border: 1px solid red;
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: snow;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.navbar-inverse .navbar-nav>li>#a {
+	color: snow;
+}
+
+.navbar-inverse .navbar-nav>li>#a:hover {
+	color: rgb(109, 139, 201);
+}
+
+.navbar-inverse .navbar-nav>li>#a2 {
+	color: snow;
+}
+
+.navbar-inverse .navbar-nav>li>#a2:hover {
+	color: rgb(215, 143, 189);
+}
+
+.navbar-inverse .navbar-nav>li>#a3 {
+	color: snow;
+}
+
+.navbar-inverse .navbar-nav>li>#a3:hover {
+	color: rgb(248, 78, 79);
+}
+
+.navbar-inverse .navbar-nav>li>#a4 {
+	color: snow;
+}
+
+.navbar-inverse .navbar-nav>li>#a4:hover {
+	color: rgb(45, 220, 155);
+}
+
+/*========== secao =========*/
+
+#servicos{
+	background: white;
+	margin: 150px 50px 100px 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 5px 5px 5px 5px black;
+	
+}
+
+.roms {
+	
+	width: 500px;
+	padding-bottom: 1px;
+	
+	/*padding: 2px 0px 2px 0px;*/
+	border: 1px solid red;
+	margin-bottom: 3px;
+	background-color: lightgray;
+}
+
+
+
+#size-image {
+	width: 80px;
+	float: left;
+
+}
+
+#letra {
+	font-size: 18px;
+	color: black;
+	float: top;
+	/*border: 1px solid green;*/
+	margin-left: 70px;
+	letter-spacing: -0.05em;
+	font-style: oblique;
+	font-weight: 900;
+
+
+}
+
+#letra-sm {
+	font-size: 18px;
+	color: black;
+	float: top;
+	/*border: 1px solid green;*/
+	margin-left: 70px;
+	letter-spacing: -0.12em;
+	font-style: oblique;
+	font-weight: 900;
+
+/*======= Botões de Download  =======*/
+}
+
+#download {
+	float: right;
+	margin-top: 48px;
+}
+
+#download2 {
+	float: right;
+	margin-top: 28px;
+	/*padding-right: 30px;
+	padding-left: 30px;*/
+	width: 80px;
+
+}
+
+#download-fix {
+	float: right;
+	margin-top: 36px;
+}
+
+#torrent {
+	float: right;
+	margin-top: 48px;
+}
+
+#torrent-fix {
+	float: right;
+	margin-top: 62px;
+}
+
+#torrent-fix-2 {
+	float: right;
+	margin-top: 23px;
+}
+
+/*===== Visual dos Botões  =====*/
+
+.btn-custom {
+	padding: 5px 10px 3px 10px;
+	height: 27px;
+	font-size: 12px;
+	color: white;
+	background-color: blue
+	-webkit-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.2s;
+}
+
+.btn-success2 {
+	background-color: slateblue;
+	border-color: slateblue;
+	color: white; 
+}
+
+.btn-success2:hover {
+	background-color: darkslateblue;
+	border-color: slateblue;
+	color: white; 
+}
+
+.btn-success2:focus {
+	background-color: darkslateblue;
+	border-color: slateblue;
+	color: white;
+}
+
+.btn-success2:visited {
+	background-color: darkslateblue;
+	border-color: slateblue;
+	color: white;
+}
+
+.a:visited {
+	background-color: slateblue;
+	border-color: slateblue;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================================= tipografia =======================================*/

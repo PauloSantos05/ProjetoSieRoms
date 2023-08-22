@@ -1,0 +1,318 @@
+/*
+*
+*@Autor Paulo Ribeiro
+*@version beta 3.5.3
+*
+*/
+
+/*================================layout======================================*/
+
+/*============ barra de navegacao ===============*/
+
+html, body,.capa {
+	height: 100%;
+	overflow: auto;
+
+}
+
+body {
+	
+	background: url("../imagens/fundo/home_fundo5.png")no-repeat;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: rgba(67,16,213,1.00);
+	background-position: center;
+	background-size: 300px;
+}
+
+/*======== Logo ==========*/
+.img-logo {
+	height: 50px;
+	width: 50px;
+	display: block;
+	background: url('../imagens/register_and_login_archives/user_icon.png')no-repeat;
+	/*border: 1px solid red;*/
+	background-size: contain;
+	color: transparent;
+	
+}
+
+/*======= Barra de Navegação ========*/
+nav.nav-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+nav.nav-transparente-bottom {
+	padding: 0.5px 10px;
+	background: rgba(0, 0, 0, 1);
+	border: none;
+}
+
+
+
+.navbar-brand {
+	padding: 1px 6px;
+}
+
+
+
+/*-- imagem de capa --*/
+
+.capa {
+	/*border: 1px solid red;*/
+	display: table;
+	width: 100%;
+	
+}
+
+.texto-capa {
+	text-align: center;
+	color: snow;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: rgba(162,137,224,1.00);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #3605AB;
+}
+
+/*=========== barra de navegação posição inferior ==============================*/
+
+
+/*=========Botoes===========*/
+
+
+.btn-custom {
+	color: white;
+	-webkit-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s;
+}
+
+.btn-custom2 {
+	color: white;
+	-webkit-border-radius: 500px;
+	/*padding: 10px 35px;*/
+	text-transform: uppercase;
+	margin: 0px 15px;
+	transition: background 0.4s;
+}
+
+.btn-user {
+	
+	-webkit-border-radius: 5px;
+	
+	
+}
+
+.btn-color-nintendo {
+	background: rgba(229,78,78,1.00);
+}
+
+.btn-color-nintendo:hover {
+	background-color: red;
+	color: white;
+}
+
+.btn-color-master_system {
+	background-color: rgba(11,183,255,1.00);
+}
+
+.btn-color-master_system:hover {
+	background-color: rgba(0,129,211,1.00);
+	color: white;
+
+}
+
+.btn-color-supernintendo {
+	background: gold;
+}
+
+.btn-color-supernintendo:hover {
+	background-color: rgb(245, 191, 5);
+	color: red;
+}
+
+.btn-color-megadrive {
+	background-color: rgba(48,78,255,1.00);
+	
+}
+
+.btn-color-megadrive:hover {
+	background-color: rgba(2,0,221,1.00);
+	color: white;
+}
+
+.btn-color-playstationone {
+	background-color: rgb(45, 220, 155);
+}
+
+.btn-color-playstationone:hover {
+	background-color: rgb(248, 78, 79);
+	color: white;
+}
+
+/*========== secao =========*/
+
+#servicos{
+	background: rgba(255, 210, 29,);
+	color: transparent;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
+
+.roms {
+	width: 390px;
+	height: 180px;
+	padding-bottom: 10px;
+	padding-right: 10px; 
+	/*padding: 2px 0px 2px 0px;*/
+	border: 1px solid red;
+	margin-bottom: 3px;
+
+
+}
+
+/*---- cor das fontes de navegação na parte inferior ----*/
+
+#a1 {
+	color: white;
+}
+
+#a1:hover {
+	color: darkturquoise;
+}
+
+#a2 {
+	color: white;
+}
+
+#a2:hover {
+	color: darkturquoise;
+}
+
+#a3 {
+	color: white;
+}
+
+#a3:hover {
+	color: darkturquoise;
+}
+
+
+/*===============================Tipografia================================*/
+
+/*============ Imagens ==============*/
+
+.imagens-visual {
+	
+}
+
+/*=========== Media Query =============*/
+
+/*--- Dispositivos Menores --- */
+@media screen and (max-width: 767px) {
+	.btn-custom {
+		padding: 7px 7px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.btn-custom2 {
+		padding: 7px 7px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.imagens-visual {
+		width: 179px; 
+		height: 52px;
+	}
+}
+
+/*--- Dispositivos Pequenos ---*/
+@media screen and (min-width: 768px) {
+	.btn-custom {
+		padding: 9px 9px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.btn-custom2 {
+		padding: 9px 9px;
+		margin-bottom: 10px;
+		
+	}
+	
+	.imagens-visual {
+		width: 190px; 
+		height: 65px;
+		margin-top: 25px;
+	}
+}
+
+
+
+
+/*--- Dispositivos Médios ---*/
+@media screen and (min-width: 992px) {
+	.btn-custom {
+		padding: 10px 14px;
+		margin-bottom: 10px;
+	}
+	
+	.btn-custom2 {
+		padding: 10px 14px;
+		margin-bottom: 10px;
+	}
+	
+	.imagens-visual {
+		width: 199px;
+		height: 70px;
+		margin-top: 25px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.btn-custom {
+		padding: 10px 35px;
+		margin-bottom: 10px;
+	}
+	
+	.btn-custom2 {
+		padding: 10px 35px;
+		margin-bottom: 10px;
+	}
+	
+	.imagens-visual {
+		width: 220px;
+		height: 76px;
+		margin-top: 25px;
+	}
+}
+
+/*=========== Fim Media Query =============*/
+
+h1 {
+	font-size: 100px;
+	font-weight: 700;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+
+}
+
+#h2 {
+	font-size: 25px;
+	color: blue;
+	
+	border: 1px solid green;
+
+}
